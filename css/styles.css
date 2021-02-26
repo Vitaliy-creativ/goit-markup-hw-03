@@ -9,6 +9,19 @@ ul {
   margin: 0;
   padding: 0;
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  overflow: auto;
+}
+main {
+  min-height: 100%;
+}
 
 img {
   display: block;
@@ -59,7 +72,9 @@ header .container {
   align-items: center;
   justify-content: space-between;
 }
-
+header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
 .nav {
   display: flex;
   align-items: center;
@@ -90,7 +105,7 @@ header .container {
   margin-bottom: 200px;
   padding: 10px 32px;
   font-weight: 700;
-  color: current Color;
+  color: var(--white-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -100,7 +115,7 @@ header .container {
 
 .button {
   background-color: var(--secondary-background-color);
-  color: var(--primary-color);
+  color: var(--black-color);
   font-weight: 500;
   border: none;
   font-size: 16px;

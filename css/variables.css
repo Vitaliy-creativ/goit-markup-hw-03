@@ -14,5 +14,5 @@
   /* Card*/
   --card-set-gap: 30px;
   /* border*/
-  --border-color: #ececec;
+  --border-color: rgba(236, 236, 236, 1);
 }
